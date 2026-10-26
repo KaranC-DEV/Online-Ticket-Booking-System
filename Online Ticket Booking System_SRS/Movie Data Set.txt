@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Leo",
+    "description": "A man with a mysterious past faces his old enemies.",
+    "genre": "Action",
+    "language": "Tamil",
+    "duration": 164,
+    "releaseDate": "2023-10-19",
+    "certificate": "UA"
+  },
+  {
+    "title": "Jailer",
+    "description": "A retired jailer sets out to find his missing son.",
+    "genre": "Action",
+    "language": "Tamil",
+    "duration": 168,
+    "releaseDate": "2023-08-10",
+    "certificate": "A"
+  },
+  {
+    "title": "Vikram",
+    "description": "A special agent investigates a series of mysterious murders.",
+    "genre": "Thriller",
+    "language": "Tamil",
+    "duration": 174,
+    "releaseDate": "2022-06-03",
+    "certificate": "A"
+  },
+  {
+    "title": "RRR",
+    "description": "Two revolutionaries fight against British colonial rule.",
+    "genre": "Action",
+    "language": "Telugu",
+    "duration": 187,
+    "releaseDate": "2022-03-25",
+    "certificate": "UA"
+  },
+  {
+    "title": "3 Idiots",
+    "description": "Three engineering students challenge traditional education.",
+    "genre": "Comedy",
+    "language": "Hindi",
+    "duration": 170,
+    "releaseDate": "2009-12-25",
+    "certificate": "UA"
+  },
+  {
+    "title": "Inception",
+    "description": "A skilled thief enters people's dreams to steal secrets.",
+    "genre": "Sci-Fi",
+    "language": "English",
+    "duration": 148,
+    "releaseDate": "2010-07-16",
+    "certificate": "UA"
+  },
+  {
+    "title": "Interstellar",
+    "description": "A team of explorers travels through space to find a new home for humanity.",
+    "genre": "Sci-Fi",
+    "language": "English",
+    "duration": 169,
+    "releaseDate": "2014-11-07",
+    "certificate": "UA"
+  },
+  {
+    "title": "Drishyam",
+    "description": "A father uses his intelligence to protect his family from a criminal investigation.",
+    "genre": "Crime Thriller",
+    "language": "Malayalam",
+    "duration": 160,
+    "releaseDate": "2013-12-19",
+    "certificate": "U"
+  },
+  {
+    "title": "Dangal",
+    "description": "A former wrestler trains his daughters to become champion wrestlers.",
+    "genre": "Drama",
+    "language": "Hindi",
+    "duration": 161,
+    "releaseDate": "2016-12-23",
+    "certificate": "U"
+  },
+  {
+    "title": "The Conjuring",
+    "description": "Paranormal investigators help a family experiencing terrifying supernatural events.",
+    "genre": "Horror",
+    "language": "English",
+    "duration": 112,
+    "releaseDate": "2013-07-19",
+    "certificate": "A"
+  }
+]

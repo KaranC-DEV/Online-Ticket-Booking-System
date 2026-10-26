@@ -1,0 +1,26 @@
+package com.example.ticket_booking_system.service;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Service;
+
+import com.example.ticket_booking_system.dto.MovieRequestDTO;
+import com.example.ticket_booking_system.dto.MovieResponseDTO;
+import com.example.ticket_booking_system.entity.Movie;
+import com.example.ticket_booking_system.repository.MovieRepository;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class MovieService {
+
+	private final MovieRepository movieRepository;
+	
+	public MovieResponseDTO createMovie(MovieRequestDTO movieRequestDTO) {
+		
+		Movie movie = ModelMapper.map(movieRequestDTO,Movie.class);
+		Movie savedMovie= movieRepository.save(movie);
+		return ModelMapper.map(savedMovie,MovieResponseDTO);
+		
+	}
+}
