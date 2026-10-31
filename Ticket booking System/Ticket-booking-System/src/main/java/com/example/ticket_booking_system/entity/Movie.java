@@ -3,7 +3,7 @@ package com.example.ticket_booking_system.entity;
 
 import java.time.LocalDate;
 
-import com.example.ticket_booking_system.enums.Status;
+import com.example.ticket_booking_system.enums.MovieStatus;
 
 import jakarta.annotation.Generated;
 import jakarta.persistence.Entity;
@@ -35,5 +35,5 @@ public class Movie {
 	private LocalDate releaseDate;
 	private String certificate;
 	@Enumerated(EnumType.STRING)
-	private Status status;
+	private MovieStatus status;
 }

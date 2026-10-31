@@ -2,7 +2,7 @@ package com.example.ticket_booking_system.dto;
 
 import java.time.LocalDate;
 
-import com.example.ticket_booking_system.enums.Status;
+import com.example.ticket_booking_system.enums.MovieStatus;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -16,6 +16,7 @@ import lombok.Setter;
 
 public class MovieResponseDTO {
 	
+	 private Long id;
 	private String title;
 	private String description;
 	private String genre;
@@ -24,5 +25,5 @@ public class MovieResponseDTO {
 	private LocalDate releaseDate;
 	private String certificate;
 
-	private Status status;
+	private MovieStatus status;
 }

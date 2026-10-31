@@ -1,6 +1,7 @@
 package com.example.ticket_booking_system.enums;
 
-public enum Status {
-	 INACTIVE,
-	 ACTIVE
+public enum SeatStatus {
+
+	 AVAILABLE,
+	    BOOKED
 }
